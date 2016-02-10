@@ -7,6 +7,7 @@ function mainCtrl($scope){
 	$scope.countries = [];
 
 	$scope.addRandom=function(){
+		console.log("here");
 		$scope.countries.push(
 			countryArray[Math.floor(Math.random() * (countryArray.length))]
 		);
