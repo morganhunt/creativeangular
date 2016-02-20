@@ -6,11 +6,12 @@ angular.module('app', [])
 function mainCtrl($scope){
 	$scope.countries = [];
 
-	$scope.addRandom=function(){
+	$scope.addNew=function(country){
 		console.log("here");
-		$scope.countries.push(
-			countryArray[Math.floor(Math.random() * (countryArray.length))]
-		);
+		$scope.countries.push({
+			// this is where we put information for the country post-it
+
+		});
 	}
 	console.log("call select country");
 	selectCountry();
