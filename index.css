@@ -12,13 +12,14 @@
 
 .map{
 	position: absolute;
-	right: 300px;
-	top: 65px;
+	right: 340px;
+	top: 80px;
 	bottom: 0px;
 }
 
 .map img{
- width: 95%;
+ width: 1000px;
+ height: 570px;	
 }
 
 .header{
