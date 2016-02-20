@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Travel Project</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+  <script src="Travel.js"></script>
+</head>
+
+
+<body>
+
+<div class="container" ng-app="myApp" ng-controller='mainCtrl'>
+
+
+  <h1>Around the world</h1>
+
+<!-- Need to pass in userform as an argument-->
+  <form name="userform" ng-submit="find(userform)"> 
+  	<div class="form-group">
+  		<label for="text">Country:</label>
+  		<input placeholder="Enter Country" type="text" class="form-control" id="text1" ng-model="userform.text">
+  	</div>
+  	<button type="submit" class="btn btn-default">Find</button>
+  </form>
+
+<div>
+{{url1}}
+	<img ng-src={{url1}}>
+</div>
+
+</div>
+
+</body>
+</html>
