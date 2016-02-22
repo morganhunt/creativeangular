@@ -10,19 +10,21 @@
 	overflow-y: scroll;
 }
 
-.map{
-	position: absolute;
-	right: 340px;
-	top: 80px;
-	bottom: 0px;
+body {
+	background-color: #d3d3d3;
 }
+
 
 .map img{
- width: 1000px;
- height: 570px;	
+ position: absolute;
+ right: 375px;
+ top: 120px;
+ bottom: 0px;
+ width: 900px;
+ height: 520px;	
 }
 
-.header{
+.jumbotron{
 	color: grey;
 	background-color: navy;
 	border-bottom-left-radius: 20px;
@@ -32,4 +34,23 @@
 	top: 0px;
 	left: 0px;
 	right: 300px;
+}
+
+
+ 
+.map img {
+  border: 10px solid #fff;
+  border-bottom: 45px solid #fff;
+  -webkit-box-shadow: 3px 3px 3px #777;
+     -moz-box-shadow: 3px 3px 3px #777;
+          box-shadow: 3px 3px 3px #777;
+}
+ 
+.map p {
+  position: absolute;
+  left: 30%;
+  width: 100%;
+  bottom: 24px;
+  font: 400 18px/1 'Kaushan Script', cursive;
+  color: #888;
 }
