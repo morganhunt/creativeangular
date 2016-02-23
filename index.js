@@ -9,8 +9,8 @@ function mainCtrl($scope){
 	$scope.addNew=function(country){
 		console.log("here");
 		$scope.countries.push({
-			// this is where we put information for the country post-it
-
+			name: country,
+			//this is where i'll go grab the flag from the array whenever it shows up.
 		});
 	}
 	console.log("call select country");
@@ -178,15 +178,7 @@ function selectCountry(){
 			name = "Turkey"
 			console.log(name);
 		}
-
-
-
-
-
-
-
-
-
+		addNew(name);
 	})
 }
 
@@ -210,11 +202,7 @@ function countryDirective(){
 
 
 
-var countryArray = [
-{name: "United States"},
-{name: "Italy"},
-{name: "India"},
-{name: "England"}]
+
 
 
 
