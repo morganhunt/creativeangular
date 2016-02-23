@@ -36,9 +36,7 @@
 					<div class="bulletin">
 						<h2>Pinned Countries</h2>
 						<ul class="country-posts">
-							{{countries}}
-							<li ng-repeat='place in countries'>
-								
+							<li ng-repeat='place in countries track by $index'>
 								<country country='place'/>
 							</li>
 						</ul>

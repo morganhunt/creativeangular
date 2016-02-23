@@ -4,14 +4,42 @@
 	position: absolute;
 	right: -30px;
 	top: 0px;
-	width: 300px;
+	width: 330px;
 	height: 100%;
 	text-align: center;
 	overflow-y: scroll;
 	border-left: 10px;
 	border-right: 10px;
 	border-color: black;
+	font-family: "Arial Black", Gadget, sans-serif;
+	color: black;
 }
+
+
+.country-posts{
+	padding: 0px;
+}
+
+
+#thumbtack{
+
+}
+
+
+.Country img{
+	width: 250px;
+	-webkit-box-shadow: 3px 3px 3px;
+     -moz-box-shadow: 3px 3px 3px;
+          box-shadow: 3px 3px 3px;
+
+    border-radius: 6px;
+}
+
+
+li{
+	list-style: none;
+}
+
 
 body {
 	background-color: #d3d3d3;
@@ -30,8 +58,6 @@ body {
 .jumbotron{
 	color: grey;
 	background-color: navy;
-	border-bottom-left-radius: 20px;
-	border-bottom-right-radius: 20px;
 	padding: 5px;
 	position: absolute;
 	top: 0px;

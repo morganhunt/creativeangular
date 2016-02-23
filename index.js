@@ -38,7 +38,6 @@ function mainCtrl($scope){
 ];
 
 	$scope.addNew=function(country){
-		console.log("here");
 		var which;
 		var length = 26;
 		for(i = 0; i < countryArray.length; i++){
@@ -50,7 +49,8 @@ function mainCtrl($scope){
 		var info = countryArray[which]
 		$scope.countries.push(info);
 
-		console.log($scope.countries);
+		$scope.$apply();
+
 	}
 	console.log("call select country");
 	selectCountry($scope);
